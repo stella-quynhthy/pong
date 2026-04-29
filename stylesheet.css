@@ -1,0 +1,91 @@
+/* STEP 1: Reset page layout */
+/* Remove default margins from the browser */
+/* Set background to a dark arcade-style theme */
+/* Set text color to white for contrast */
+/* Center all text on the page */
+/* Set a clean font for readability */
+body {
+    margin:auto;
+    background-color: #474073;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* STEP 2: Style the game title */
+/* Increase font size for visibility */
+/* Add spacing above the title */
+/* Add letter spacing for arcade-style effect */
+/* Add glow effect using text shadow */
+#title {
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+
+/* STEP 3: Style the scoreboard (HUD) */
+/* Add spacing below scoreboard */
+/* Set font size for readability */
+/* Keep layout centered */
+#hud {
+    font-size: 20px;
+}
+
+
+/* STEP 4: Style the canvas (main game area) */
+/* Set dark gradient background for depth */
+/* Center canvas on the page */
+/* Add border to define game area */
+/* Add glow effect around canvas */
+/* Add rounded corners for modern look */
+#gameArea {
+    background-color: black;
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+}
+
+
+/* STEP 5: Style message text */
+/* Add spacing above message */
+/* Make text smaller than title */
+/* Use lighter gray color for subtle UI feedback */
+
+
+/* STEP 6: Style buttons */
+/* Add spacing between buttons */
+/* Add padding for clickable area */
+/* Remove default border */
+/* Round button corners */
+/* Set background color */
+/* Set text color */
+/* Change cursor to pointer on hover */
+/* Add smooth transition for hover effects */
+button {
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #474073;
+    cursor: pointer;
+    background-color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/* STEP 7: Add hover effect for buttons */
+/* Change background color on hover */
+/* Invert text color for contrast */
+/* Add glow effect for feedback */
+button:hover {
+    background-color: #dedee3;
+    color: #7b75a1;
+    padding: 20px;
+    transition-duration: .7s;
+}
+
+
+/* STEP 8: Add click (active) effect */
+/* Slightly shrink button when clicked */
+/* Gives pressed animation feel */

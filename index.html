@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- STEP 1: Create main container -->
+<!-- Wrap the entire game in a single page structure -->
+    <div id="mainContainer">
+
+<!-- STEP 2: Create game title -->
+<!-- Displays the name of the game -->
+        <h1 id="title">Pong Game</h1>
+
+<!-- STEP 3: Create HUD (score display) -->
+<!-- Shows Player 1 and Player 2 scores -->
+    <div id="hud">
+
+    <!-- Player 1 score display -->
+        <span>Player 1: <strong id="pOne">0</strong></span>
+
+    <!-- Divider between scores -->
+        |
+
+    <!-- Player 2 score display -->
+        <span>Player 2: <strong id="pTwo">0</strong></span>
+    </div>
+
+<!-- STEP 4: Create game canvas -->
+<!-- Main area where game graphics are drawn using JavaScript -->
+<!-- Width and height define game size -->
+<!-- Canvas must have an id so JS can access it -->
+    <canvas id="gameArea" width="600" height="450"></canvas>
+
+<!-- STEP 5: Create message display -->
+<!-- Used for game status like "Press SPACE", "AI Wins", etc. -->
+    <p id="message">Press SPACE to begin</p>
+
+<!-- STEP 6: Create mode toggle button -->
+<!-- Switches between AI mode and 2-player mode -->
+    <button id="toggle">Mode: AI On</button>
+
+<!-- STEP 7: Create restart button -->
+<!-- Restarts the game and resets score -->
+    <button id="restart">RESTART</button>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
