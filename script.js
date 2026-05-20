@@ -281,6 +281,8 @@ function updateModeUi() {
 /* STEP 12: Restart game */
 /* Listen for restart button click */
 /* Call start game function */
+restartBtn.addEventListener("click", startGame);
+startGame();
 
 
 /* STEP 13: Initialize game */
